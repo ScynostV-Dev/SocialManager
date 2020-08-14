@@ -1,0 +1,15 @@
+name: SocialManager
+version: ${project.version}
+main: de.polygondev.socialmanager.SocialManager
+api-version: 1.13
+depend:
+  - InventoryApi
+  - Vault
+commands:
+  friend:
+    usage: /friend <list, add, remove, accept, deny>
+  socialmanager:
+    permission: socialmanager.admin
+    usage: /sm <info, reload>
+    aliases:
+      - sm
