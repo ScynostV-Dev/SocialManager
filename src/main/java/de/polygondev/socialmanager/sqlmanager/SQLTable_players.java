@@ -2,7 +2,6 @@ package de.polygondev.socialmanager.sqlmanager;
 
 import de.polygondev.socialmanager.SocialManager;
 import org.bukkit.entity.Player;
-
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
